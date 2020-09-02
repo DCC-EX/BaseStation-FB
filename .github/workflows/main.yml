@@ -3,7 +3,7 @@ name: CI
 on: [push]
 
 jobs:
-  build:
+  build-commandstation-ex:
 
     runs-on: ubuntu-latest
 
@@ -15,3 +15,4 @@ jobs:
       run: pip install -U https://github.com/platformio/platformio/archive/v4.2.1.zip
     - name: Compile Command Station
       run: python -m platformio run
+      working-directory: ./CommandStation-EX
