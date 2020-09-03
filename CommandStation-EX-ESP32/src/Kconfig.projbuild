@@ -1,0 +1,5 @@
+menu "WiThrottle Configuration"
+    config WITHROTTLE_PORT
+        int "WiThrottle Listener Socket"
+        default 44444
+endmenu

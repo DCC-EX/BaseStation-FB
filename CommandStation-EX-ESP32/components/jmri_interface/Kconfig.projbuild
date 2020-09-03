@@ -1,0 +1,5 @@
+menu "JMRI Configuration"
+    config JMRI_PORT
+        int "JMRI Listener Socket"
+        default 2560
+endmenu

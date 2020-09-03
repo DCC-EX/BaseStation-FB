@@ -1,0 +1,15 @@
+menu "WiFi Configuration"
+    config WIFI_SSID
+        string "WiFi SSID"
+
+    config WIFI_PASSWORD
+        string "WiFi Password"
+
+    config WIFI_MDNS_SERVICE_NAME
+        string "mDNS service name"
+        default "CommandStation-EX"
+
+    config WIFI_MDNS_INSTANCE_NAME
+        string "mDNS instance name"
+        default "ESP32 CommandStation-EX interface"
+endmenu
