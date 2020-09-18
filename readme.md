@@ -1,3 +1,3 @@
-# CommandStation EX
+# BaseStation-FB
 
-Welcome to the future of DCC++ and affordable model railroading. The team current working on this project have invested a lot of time know how and code to see this through. More to come soon!!!!!
+This project was one candidate for the new CommandStation-EX. In order to release CS-EX, the code was broken into a separate repository. FireBox code will be developed separately for the time being using the same command language, and may be merged together at a future date.
